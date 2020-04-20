@@ -9,8 +9,11 @@ class Shoe
   def condition=(condition)
     @condition = condition
     end
-    def new_condition=(new)
-      @new_condition = "new"
+    def new_condition=(condition)
+      @new_condition = condition
+      end
+      def new_condition
+        @new_condition
       end
 end 
 
