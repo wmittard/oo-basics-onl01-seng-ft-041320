@@ -13,7 +13,7 @@ class Shoe
       @new_condition = condition
       end
       def new_condition
-        @new_condition
+        @new_condition = "new"
       end
 end 
 
