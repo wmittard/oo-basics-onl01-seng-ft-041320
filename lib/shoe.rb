@@ -10,5 +10,8 @@ class Shoe
     condition = "tattered"
     @condition = "new"
   end
+  def condition
+    @condition
+  end
 end 
 
